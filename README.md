@@ -1,4 +1,4 @@
-# AI FLUTTER APPS
+# SIMPLE AI CHAT
 
 This is a Simple Apps That Integrated GetX State Management with Flutter AI Toolkit
 
