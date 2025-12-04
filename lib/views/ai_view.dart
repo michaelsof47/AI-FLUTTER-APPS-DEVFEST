@@ -22,7 +22,7 @@ class _AIViewState extends State<AIView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("AI Chat")),
+      appBar: AppBar(title: const Text("AI Chat")),
       body: Column(
         children: [
           // Display response
@@ -42,7 +42,7 @@ class _AIViewState extends State<AIView> {
                 Expanded(
                   child: TextField(
                     controller: inputController,
-                    decoration: InputDecoration(
+                    decoration: const InputDecoration(
                       hintText: "Type your message...",
                       border: OutlineInputBorder(),
                     ),
@@ -50,7 +50,7 @@ class _AIViewState extends State<AIView> {
                 ),
                 SizedBox(width: 8.w),
                 IconButton(
-                  icon: Icon(Icons.send),
+                  icon: const Icon(Icons.send),
                   onPressed: () {
                     final prompt = inputController!.text;
                     if (prompt.isNotEmpty) {
